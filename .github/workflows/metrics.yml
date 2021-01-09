@@ -1,35 +1,3 @@
-inputs:
-  plugin_lines:
-    description: Enable lines of code metrics
-    default: no
-  plugin_traffic:
-    description: Enable repositories traffic metrics
-    default: no
-  plugin_habits:
-    description: Enable coding habits metrics
-    default: no
-  plugin_habits_charts:
-    description: Display recent coding activity charts
-    default: no
-  plugin_languages:
-    description: Enable most used languages metrics
-    default: no
-  plugin_followup:
-    description: Enable owned repositories issues and pull requests metrics
-    default: no
-  plugin_isocalendar:
-    description: Display an isometric view of your commits calendar along with a few additional stats
-    default: no
-  plugin_topics:
-    description: Display starred topics
-    default: no
-  plugin_stars:
-    description: Display recently starred repositories
-    default: no
-  plugin_stargazers:
-    description: Display stargazers evolution over the last two weeks
-    default: no
-
 name: Metrics
 on:
   # Schedule updates
@@ -46,3 +14,13 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           # GITHUB_TOKEN is a special auto-generated token restricted to current repository, which is used to push files in it
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+          plugin_lines: yes
+          plugin_traffic: yes
+          plugin_habits: yes
+          plugin_habits_charts: yes
+          plugin_languages: yes
+          plugin_followup: yes
+          plugin_isocalendar: yes
+          plugin_topics: yes
+          plugin_stars: yes
+          plugin_stargazers: yes
