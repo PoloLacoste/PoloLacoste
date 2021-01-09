@@ -1,1 +1,1 @@
-![Metrics](https://metrics.lecoq.io/PoloLacoste?template=classic&languages=1&isocalendar=1&followup=1&posts=1&posts.limit=4&posts.source=dev.to&isocalendar.duration=half-year&config.timezone=Europe%2FParis)
+![Metrics](github-metrics.svg)
