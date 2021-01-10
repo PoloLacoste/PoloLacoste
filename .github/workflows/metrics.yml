@@ -24,5 +24,4 @@ jobs:
           plugin_topics: yes
           plugin_stars: yes
           plugin_stargazers: yes
-          filename: metrics.png
           config_output: png
