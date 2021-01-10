@@ -1,1 +1,1 @@
-![Metrics](https://github.com/PoloLacoste/PoloLacoste/blob/main/github_metrics.png)
+![Metrics](https://github.com/PoloLacoste/PoloLacoste/blob/main/github-metrics.png)
